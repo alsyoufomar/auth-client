@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -35,4 +38,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/******************** my styling ***********************/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+}
+
+input[type="text"], input[type="password"] {
+  margin-bottom: 15px;
+  height: 30px;
+  text-indent: 10px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  display: block;
+}
+
+.info{
+  width:3em;
+  height:auto;
 }
